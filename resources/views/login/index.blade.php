@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.98.0">
-    <title>Login</title>
+    <title>Pilar Kreatif Teknologi | Login</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
 
@@ -35,8 +35,8 @@
         @endif
         <form action="/login" method="POST">
             @csrf
-            {{-- <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> --}}
-            <h1 class="h3 mb-3 fw-normal text-center">Please login</h1>
+            <img class="mb-4" src="" alt="Logo Pilar Kreatif Teknologi" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal text-center">Pilar Kreatif Teknologi</h1>
 
             <div class="form-floating">
                 <input type="email" value="{{ old('email') }}"
@@ -59,7 +59,7 @@
                     </div>
                 @enderror
             </div>
-            <button class="w-100 btn btn-lg btn-primary mt-3" type="submit">Sign in</button>
+            <button class="w-100 btn btn-lg btn-primary mt-3" type="submit">Login</button>
         </form>
         <small class="d-block text-center mt-3">Not registered? <a href="/register">Register Now!</a></small>
     </main>
