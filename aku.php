@@ -1,1 +1,1 @@
-pertama perubahan
+pertama perubahana
